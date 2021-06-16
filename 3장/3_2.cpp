@@ -3,10 +3,11 @@
 using namespace std;
 
 class Date {
+private:
+    int Year, Month, Day;
 
 public:
-    int Year, Month, Day;
-    Date(int Year, int Month, int Day);
+    Date(int y, int m, int d);
     Date(string s);
     void show();
     int getYear();
