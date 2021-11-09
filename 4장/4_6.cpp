@@ -11,7 +11,7 @@ int main() {
         getline(cin, text);
         if (text == "exit") 
             break;
-        for (int i = text.length() - 1; i > 0; i--)
+        for (int i = text.length() - 1; i >= 0; i--)
             cout << text[i];
     }
 }
